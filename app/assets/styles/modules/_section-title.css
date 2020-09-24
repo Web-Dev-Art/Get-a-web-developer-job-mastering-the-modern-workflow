@@ -24,4 +24,8 @@
              margin-right: .5rem;
          }
     }
+
+    &--blue {
+         color: $mainBlue;
+    }
 }
