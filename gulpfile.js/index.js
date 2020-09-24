@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 require('./tasks/styles');
+require('./tasks/sprites');
 require('./tasks/watch');
 
 gulp.task('html', function(cb) {
