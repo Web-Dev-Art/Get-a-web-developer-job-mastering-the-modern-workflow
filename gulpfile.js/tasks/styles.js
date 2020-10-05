@@ -5,9 +5,10 @@ var cssvars = require('postcss-simple-vars');
 var prefixer = require('autoprefixer');
 var cssimport = require('postcss-import');
 var mixins = require('postcss-mixins');
+var hexrgba = require('postcss-hexrgba');
 
 gulp.task('styles', function(cb) {
-    var plugins = [cssimport, mixins, cssvars, nested, prefixer({browsers: ['last 1 version']})];
+    var plugins = [cssimport, mixins, cssvars, nested, hexrgba, prefixer({browsers: ['last 1 version']})];
 
     return gulp.src('./app/assets/styles/style.css')
         .pipe(postcss(plugins))
