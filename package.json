@@ -1,0 +1,34 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Trave Web App",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulpfile/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Web-Dev-Art/Get-a-web-developer-job-mastering-the-modern-workflow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Web-Dev-Art/Get-a-web-developer-job-mastering-the-modern-workflow/issues"
+  },
+  "homepage": "https://github.com/Web-Dev-Art/Get-a-web-developer-job-mastering-the-modern-workflow#readme",
+  "dependencies": {
+    "gulp-postcss": "^9.0.1",
+    "jquery": "^3.6.0",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "postcss-import": "^14.0.2",
+    "postcss-mixins": "^8.1.0",
+    "postcss-nested": "^5.0.6",
+    "postcss-simple-vars": "^6.0.3"
+  }
+}
